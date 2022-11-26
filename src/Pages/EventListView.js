@@ -7,11 +7,11 @@ function EventListView() {
   return (
     <>
       <Helmet>
-        <title>Coders(hq) flyer</title>
+        <title>Coders(hq) directory</title>
         <meta
           name="description"
-          content="Find an active flyer and participate as a judge, attendee or even a host. All our events are different."
-          title="Flyer List"
+          content="Find an active directory and participate as a judge, attendee or even a host. All our events are different."
+          title="directory List"
         />
       </Helmet>
       <div className="max-w-5xl mx-auto">

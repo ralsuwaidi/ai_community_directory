@@ -4,7 +4,7 @@ import { data } from "../data";
 
 
 export default function CardList() {
-  const flyerList = data.flyers.map((data) => (
+  const directoryList = data.directorys.map((data) => (
     <div key={data.username} className="my-5 md:my-0">
       <CardItem event={data}  />
     </div>
@@ -12,7 +12,7 @@ export default function CardList() {
 
   return (
     <>
-      <div class="md:grid md:grid-cols-3 md:gap-3">{flyerList}</div>
+      <div class="md:grid md:grid-cols-3 md:gap-3">{directoryList}</div>
     </>
   );
 }

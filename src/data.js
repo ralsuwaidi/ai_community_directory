@@ -3,35 +3,35 @@ import { SlSocialGithub, SlSocialLinkedin, SlSocialTwitter } from "react-icons/s
 
 
 const data = {
-    flyers: [
+    directorys: [
         {
-            username: "pub-cybersec",
-            name: "Marya AlHabshi",
-            headline: "Product, Design, Research, Partnerships at Notion",
-            position: "NotionHQ, Dubai",
-            about: "I m a software engineer with a lot of experience in Java and Matlab, I've worked with many institutes and did many things but now I have my startup and would like to make it the next UAE home grown unicorn",
-            banner: "https://images.unsplash.com/photo-1491002052546-bf38f186af56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1508&q=80",
-            image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            username: "ralsuwaidi",
+            name: "Rashed AlSuwaidi",
+            headline: "Software Architect at The AI Office",
+            position: "Artificial Intelligence, Digital Economy and Remote Work Applications Office",
+            about: "I am a software developer with around 7 years of experience. I've worked in Dubai Financial Market, Emirates Nuclear Energy Corporation, Tawazun Technology and Innovation and now in The Artificial Intelligence Office. I've worked on drones, full-stack applications, detection algorithms and many more.",
+            banner: "https://media-exp1.licdn.com/dms/image/C4D16AQG4nGtpUSbwBg/profile-displaybackgroundimage-shrink_350_1400/0/1663321204829?e=1674691200&v=beta&t=5OY3CDqiT_Ytk13SoyfpvsTUA8OF-2SpcV0JGMiS2-Y",
+            image: "https://media-exp1.licdn.com/dms/image/C4D03AQE4ZuI6OSH17g/profile-displayphoto-shrink_200_200/0/1663321282926?e=1674691200&v=beta&t=uq0UTxtGosJbfXG_RuoKOLelXakdG-_4HKj8Jw17ByY",
             highlights: [
-                'Worked 3 years with google',
-                'Joined competition',
-                'Working on climate change',
-                'Open to network'
+                "Master's Degree in Engineering From Warwick University",
+                '4th Place in the Mohammed Bin Zayed International Robotics Competition',
+                'Worked on a Military Drone from idea to Maiden Flight',
+                'Member of the first batch of UAE Futureneers'
             ],
             socials: [
                 {
                     name: "LinkedIn",
-                    url: "url",
+                    url: "https://www.linkedin.com/in/rashed-alsuwaidi-831478154/",
                     icon: SlSocialLinkedin,
                 },
                 {
                     name: "Twitter",
-                    url: "url",
+                    url: "https://twitter.com/ras_suwaidi",
                     icon: SlSocialTwitter,
                 },
                 {
                     name: "Github",
-                    url: "url",
+                    url: "https://github.com/ralsuwaidi",
                     icon: SlSocialGithub,
                 },
             ],
@@ -43,14 +43,14 @@ const data = {
                 },
                 {
                     date: "October 2022",
-                    title: "Lead AI Team",
-                    description: "Joined a project where I was leading the AI Code search",
+                    title: "Built the UAE Codes One Line of Code",
+                    description: "Me and my colligue built the UAE one line of code platform with over 81,000 lines of code to this day",
                 },
             ],
             metadata: [
                 {
                     key: "Occupation",
-                    value: "Software Engineer",
+                    value: "Software Architect",
                 },
                 {
                     key: "Years of Experience",
@@ -58,7 +58,7 @@ const data = {
                 },
                 {
                     key: "Academic Degree",
-                    value: "Bachelors of Engineering",
+                    value: "MSc in Sustainable Energy Technologies",
                 },
             ]
         },

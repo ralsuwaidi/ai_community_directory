@@ -14,7 +14,7 @@ export const CardItem = (props) => {
           <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white ">
             {props.event.name}
           </h5>
-          <p class="mb-3 font-sm text-sm text-gray-500 dark:text-gray-400 text-ellipsis overflow-hidden h-16">
+          <p class="mb-3 font-sm text-sm text-gray-500 dark:text-gray-400 text-ellipsis overflow-hidden">
             {props.event.headline}
           </p>
 

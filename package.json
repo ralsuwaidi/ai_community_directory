@@ -1,7 +1,7 @@
 {
-  "name": "flyer",
+  "name": "directory",
   "version": "0.1.0",
-  "homepage": "https://ralsuwaidi.github.io/flyer",
+  "homepage": "https://ralsuwaidi.github.io/directory",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.4",

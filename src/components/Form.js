@@ -2,7 +2,7 @@ import axios from "axios";
 import { Checkbox, Label, Select, Textarea, TextInput } from "flowbite-react";
 import React from "react";
 
-export default function FlyerForm(props) {
+export default function directoryForm(props) {
   function handleSubmit(event) {
     event.preventDefault();
     let submitData = {};

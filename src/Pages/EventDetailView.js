@@ -1,4 +1,4 @@
-import FlyerForm from "../components/Form";
+import directoryForm from "../components/Form";
 import { Breadcrumb, Button, Modal, Timeline } from "flowbite-react";
 import { HiListBullet, HiOutlineCheck } from "react-icons/hi2";
 import { useParams } from "react-router-dom";
@@ -15,7 +15,7 @@ import DefaultTimeline from "../components/DefaultTimeline";
 
 export default function EventDetailView() {
   let { eventId } = useParams();
-  const event = data.flyers.find((obj) => obj.username === eventId);
+  const event = data.directorys.find((obj) => obj.username === eventId);
 
   return (
     <>
@@ -29,8 +29,8 @@ export default function EventDetailView() {
       <div className="bg-white max-w-2xl lg:max-w-7xl mx-auto px-3  ">
         <div className="pt-6">
           <Breadcrumb aria-label="Default breadcrumb">
-            <Breadcrumb.Item href="/flyer" icon={HiListBullet}>
-              Event List
+            <Breadcrumb.Item href="/directory" icon={HiListBullet}>
+              Directory
             </Breadcrumb.Item>
             <Breadcrumb.Item>{event.username}</Breadcrumb.Item>
           </Breadcrumb>
