@@ -8,7 +8,7 @@ axios({
       "Content-Type": "application/json"
     },
     data: {
-      "eventId": "string",
+      "userId": "string",
       "key": "string",
       "generic 1": "string",
       "generic 2": "string",

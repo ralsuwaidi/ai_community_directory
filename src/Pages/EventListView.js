@@ -7,7 +7,7 @@ function EventListView() {
   return (
     <>
       <Helmet>
-        <title>Coders(hq) directory</title>
+        <title>AI Community directory</title>
         <meta
           name="description"
           content="Find an active directory and participate as a judge, attendee or even a host. All our events are different."

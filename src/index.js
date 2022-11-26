@@ -23,7 +23,7 @@ const router = createHashRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "events/:eventId",
+    path: "user/:userId",
     element: <EventDetailView />,
   },
 ]);

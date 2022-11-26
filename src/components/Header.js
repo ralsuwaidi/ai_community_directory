@@ -3,8 +3,8 @@ import { Switch } from '@headlessui/react'
 
 
 const data = {
-  title: "directory List",
-  subheading: "Participate or host any of our active event!",
+  title: "AI Community Members",
+  subheading: "Find any of our members below",
 };
 
 export const Header = () => {
@@ -16,9 +16,9 @@ export const Header = () => {
         <p className="font-bold text-3xl">{data.title}</p>
         <p className="mt-1 text-gray-500">{data.subheading}</p>
 
-       <div className='mt-5'>
+       {/* <div className='mt-5'>
        <MyToggle />
-       </div>
+       </div> */}
       </div>
     </>
   );

@@ -6,7 +6,7 @@ export default function directoryForm(props) {
   function handleSubmit(event) {
     event.preventDefault();
     let submitData = {};
-    submitData.eventId = props.event.username;
+    submitData.userId = props.event.username;
     submitData.key = props.event.form
       .map(({ name }) => name)
       .toString()
