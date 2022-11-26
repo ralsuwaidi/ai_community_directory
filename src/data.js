@@ -44,7 +44,7 @@ const data = {
                 {
                     date: "October 2022",
                     title: "Built the UAE Codes One Line of Code",
-                    description: "Me and my colligue built the UAE one line of code platform with over 81,000 lines of code to this day",
+                    description: "Me and my colleague built the UAE one line of code platform with over 81,000 lines of code to this day",
                 },
             ],
             metadata: [
