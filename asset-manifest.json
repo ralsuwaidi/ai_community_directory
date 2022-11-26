@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ai_community_directory/static/css/main.a8fcfcab.css",
-    "main.js": "/ai_community_directory/static/js/main.f19e0272.js",
+    "main.js": "/ai_community_directory/static/js/main.0c512d12.js",
     "static/js/787.15751c23.chunk.js": "/ai_community_directory/static/js/787.15751c23.chunk.js",
     "index.html": "/ai_community_directory/index.html",
     "main.a8fcfcab.css.map": "/ai_community_directory/static/css/main.a8fcfcab.css.map",
-    "main.f19e0272.js.map": "/ai_community_directory/static/js/main.f19e0272.js.map",
+    "main.0c512d12.js.map": "/ai_community_directory/static/js/main.0c512d12.js.map",
     "787.15751c23.chunk.js.map": "/ai_community_directory/static/js/787.15751c23.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8fcfcab.css",
-    "static/js/main.f19e0272.js"
+    "static/js/main.0c512d12.js"
   ]
 }
