@@ -3,9 +3,7 @@ import React from "react";
 function Timeline(props) {
   return (
     <div>
-      <h1 className="text-lg md:text-2xl font-semibold md:font-bold mb-5 md:mb-5 mt-4">
-        Timeline
-      </h1>
+
       <ol class="relative border-l border-gray-200 dark:border-gray-700">
         {props.timeline.map((timeline) => (
           <li class="mb-10 ml-4">

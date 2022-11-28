@@ -1,5 +1,5 @@
 
-import { SlSocialGithub, SlSocialLinkedin, SlSocialTwitter } from "react-icons/sl";
+import { ImGithub, ImLinkedin, ImTwitter } from "react-icons/im";
 
 
 const data = {
@@ -22,17 +22,29 @@ const data = {
                 {
                     name: "LinkedIn",
                     url: "https://www.linkedin.com/in/rashed-alsuwaidi-831478154/",
-                    icon: SlSocialLinkedin,
+                    icon: <ImLinkedin/>,
                 },
                 {
                     name: "Twitter",
                     url: "https://twitter.com/ras_suwaidi",
-                    icon: SlSocialTwitter,
+                    icon: <ImTwitter/>,
                 },
                 {
                     name: "Github",
                     url: "https://github.com/ralsuwaidi",
-                    icon: SlSocialGithub,
+                    icon: <ImGithub/>,
+                },
+            ],
+            topics: [
+                {
+                    name: "NLP",
+                    url: "https://www.linkedin.com/in/rashed-alsuwaidi-831478154/",
+                    icon: <ImLinkedin/>,
+                },
+                {
+                    name: "computer vision",
+                    url: "https://twitter.com/ras_suwaidi",
+                    icon: <ImTwitter/>,
                 },
             ],
             timeline: [

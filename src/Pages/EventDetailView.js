@@ -1,17 +1,15 @@
 import directoryForm from "../components/Form";
 import { Breadcrumb, Button, Modal, Timeline } from "flowbite-react";
-import { HiListBullet, HiOutlineCheck } from "react-icons/hi2";
+import { HiListBullet } from "react-icons/hi2";
 import { useParams } from "react-router-dom";
 import { data } from "../data";
 import { Helmet } from "react-helmet-async";
-import { CardLineIcon } from "../components/CardIcon";
-import { SlCalender } from "react-icons/sl";
-import { useState } from "react";
 import CardIconList from "../components/CardIconList";
 import Metadata from "../components/Metadata";
 import Detail from "../components/Detail";
 import Highlights from "../components/Highlights";
 import DefaultTimeline from "../components/DefaultTimeline";
+import { ImLinkedin } from "react-icons/im";
 
 export default function EventDetailView() {
   let { userId } = useParams();
@@ -54,12 +52,28 @@ export default function EventDetailView() {
                 {user.name}
               </h1>
 
+              {/* <span className="text-base font-light">test</span> */}
+
               {/* Description and details */}
               <p className="text-sm text-gray-900">{user.headline}</p>
               <p className="text-sm text-gray-500">{user.position}</p>
 
-              <div className="mt-5">
-                <CardIconList event={user} />
+              <div className="flex justify-between mt-5">
+                <div>
+                  <div>
+                    <CardIconList event={user} />
+                  </div>
+                </div>
+                <div className="flex">
+                  
+                  {user.socials.map((social) => (
+                    
+                    <a href={social.url} className="ml-4">
+                      {social.icon}
+                    </a>
+                  ))}
+
+                </div>
               </div>
             </div>
 
@@ -71,10 +85,9 @@ export default function EventDetailView() {
                 <div className="mt-10 pb-5">
                   <Highlights highlights={user.highlights} />
                 </div>
-<div className="mt-10">
-
-                <Metadata metadata={user.metadata}/>
-</div>
+                <div className="mt-10">
+                  <Metadata metadata={user.metadata} />
+                </div>
               </div>
 
               {/* Timeline */}
